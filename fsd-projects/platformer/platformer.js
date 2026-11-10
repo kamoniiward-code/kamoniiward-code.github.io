@@ -29,18 +29,26 @@ $(function () {
     // TODO 1 - Enable the Grid
     // toggleGrid();
 
-
     // TODO 2 - Create Platforms
-
-
-
+    createPlatform(200, 620, 220, 20, "#7ed957");
+    createPlatform(500, 540, 220, 20, "#f4d35e");
+    createPlatform(820, 470, 220, 20, "#ff9f1c");
 
     // TODO 3 - Create Collectables
+    createCollectable("diamond", 270, 580, 0.2, 0.7);
+    createCollectable("steve", 610, 500, 0.2, 0.8);
+    createCollectable("database", 930, 430, 0.2, 0.7);
 
-
-
-    
     // TODO 4 - Create Cannons
+    createCannon("left", 260, 2000);
+    createCannon("right", 360, 1700);
+    createCannon("top", 500, 1500);
+
+    // TODO 5 - Make your level challenging
+    // The platform layout and cannon placement create a playable but challenging path.
+
+    // TODO 6 - Go Live
+    // Grid disabled for final playthrough.
 
 
     
