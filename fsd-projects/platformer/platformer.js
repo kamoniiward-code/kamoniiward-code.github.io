@@ -33,6 +33,8 @@ $(function () {
     createPlatform(200, 620, 220, 20, "#7ed957");
     createPlatform(500, 540, 220, 20, "#f4d35e");
     createPlatform(820, 470, 220, 20, "#ff9f1c");
+    createPlatform(1080, 400, 220, 20, "#5ec8ff");
+    createPlatform(1160, 350, 180, 20, "#b392f0");
 
     // TODO 3 - Create Collectables
     createCollectable("diamond", 270, 580, 0.2, 0.7);
